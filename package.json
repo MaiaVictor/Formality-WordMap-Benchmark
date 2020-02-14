@@ -1,0 +1,22 @@
+{
+  "name": "formality-wordmap-benchmark",
+  "version": "0.1.0",
+  "description": "Benchmarking immutable maps on Formality-to-JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moonad/formality-wordmap-benchmark.git"
+  },
+  "author": "Victor Maia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moonad/formality-wordmap-benchmark/issues"
+  },
+  "homepage": "https://github.com/moonad/formality-wordmap-benchmark#readme",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12"
+  }
+}
