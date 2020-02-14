@@ -1,5 +1,6 @@
 const { Map, List } = require('immutable');
 
+// The WordMap library compiled from Formality to JavaScript
 M = (function(){
   var _WordMap$Word = undefined;
   var _WordMap$WordMap = (_0=>undefined);
