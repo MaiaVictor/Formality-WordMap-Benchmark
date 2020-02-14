@@ -265,7 +265,7 @@ function wordmap_fm(L) {
   return s;
 };
 
-// The same algorithm with native JS objs
+// The same test, same data structure, with native JS objs
 function wordmap_js(L) {
   var m = J.wnil;
   for (var i = 0; i < L; ++i) {
@@ -278,7 +278,7 @@ function wordmap_js(L) {
   return s;
 };
 
-// The same algorithm with native JS objs
+// The same test, same data structure but manually optimized
 function wordmap_opt_js(L) {
   var m = F.wnil;
   for (var i = 0; i < L; ++i) {
@@ -291,7 +291,7 @@ function wordmap_opt_js(L) {
   return s;
 };
 
-// The same test with Immutable.js (but with a different data structure)
+// The same test with a different data structure (Immutable.js)
 function wordmap_immutable_js(L) {
   var m = Map();
   for (var i = 0; i < L; ++i) {
