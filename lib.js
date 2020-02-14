@@ -291,6 +291,7 @@ function wordmap_opt_js(L) {
   return s;
 };
 
+// The same algorithm with Immutable.js
 function wordmap_immutable_js(L) {
   var m = Map();
   for (var i = 0; i < L; ++i) {
